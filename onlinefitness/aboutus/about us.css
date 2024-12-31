@@ -1,0 +1,173 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+/* Top navigation bar CSS */
+.topnav {
+	background-color: black;
+	width: 100%;
+	display: flex;
+	position: relative;
+}
+
+.logo {
+	margin-left: 5px;
+	width: 90px;
+	height: 140px;
+}
+
+#name {
+	margin-left: 30%;
+	font-size: 125px;
+	margin-right: 30%;
+	color: #a4a4a4;
+}
+
+.userpic {
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	margin-top: 1%;
+}
+
+.user {
+	margin-top: 30px;
+	margin-left: 5px;
+	color: #a4a4a4;
+}
+
+/* Second navigation bar CSS */
+
+ul {
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.active {
+	background-color: #04aa6d;
+}
+
+/* Search bar */
+
+input[type='text'] {
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+	border: none;
+	position: absolute;
+	margin-left: 170%;
+}
+
+.search-container {
+	position: absolute;
+}
+
+.searchimg {
+	margin-left: 100px;
+}
+.searchimg img {
+	width: 5%;
+	margin-left: 240%;
+	margin-top: 1%;
+}
+/*..............*/
+
+.hero {
+	background-color: #333;
+	overflow: hidden;
+}
+.heading h1 {
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 35px;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	margin: 65px auto;
+}
+.hero-content {
+	flex: 1;
+	width: 600px;
+	margin: 0px 25px;
+}
+.hero-content h2 {
+	font-size: 38px;
+	margin-bottom: 20px;
+	color: white;
+}
+.hero-content p {
+	font-size: 24px;
+	list-style: 1.5;
+	margin-bottom: 40px;
+	color: white;
+}
+
+.hero-image {
+	flex: 1;
+	width: 600px;
+	margin: auto;
+}
+img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+.hero-content h1 {
+	font-size: 38px;
+	margin-bottom: 20px;
+	color: white;
+}
+body {
+	background-image: url('ly.jpeg');
+}
+@media screen and (max-width: 768px) {
+	.heading h1 {
+		font-size: 45px;
+		margin-top: 30px;
+	}
+	.hero {
+		margin: 0px;
+	}
+	.container {
+		width: 100%;
+		flex-direction: column;
+		margin: 0px;
+		padding: 0px 40px;
+	}
+	.hero-content {
+		width: 100%;
+		margin: 35px 0px;
+	}
+	.hero-content h2 {
+		font-size: 30px;
+	}
+	.hero-content p {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------- */

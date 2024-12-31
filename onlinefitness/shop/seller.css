@@ -1,0 +1,19 @@
+.selerimg{
+    width: 200px;
+}
+
+.selerimg img{
+    width: 200px;
+}
+
+.divdiscrip{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -280px;
+}
+a{
+  text-decoration: none;
+}
+.dis{
+  width: 500px;
+}

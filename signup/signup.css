@@ -1,0 +1,192 @@
+body{
+  background-image: url(bg5.jpg);
+  background-repeat:repeat;
+  
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+/* Top navigation bar CSS */
+.topnav {
+  background-color:black;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.logo {
+  margin-left: 5px;
+  width: 90px;
+  height: 140px;
+}
+
+#name {
+  margin-left: 30%;
+  font-size: 125px;
+  margin-right: 30%;
+  color: #a4a4a4;
+}
+
+.userpic {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 1%;
+}
+
+.user {
+  margin-top: 30px;
+  margin-left: 5px;
+  color: #a4a4a4;
+}
+
+/* Second navigation bar CSS */
+
+ul{
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+/* Search bar */
+
+.search-input {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  position: absolute;
+  margin-left: 1550px;
+}
+
+.search-container {
+  position: absolute;
+}
+
+/*.search-container button {
+  float: right;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}*/
+
+.searchimg{
+  margin-left: 100px;
+}
+.searchimg img{
+  width: 30px;
+  margin-left: 1770px;
+  margin-top: 8px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.heading{
+  color: antiquewhite;
+  margin-right: 800px;
+  margin-bottom: 300px;
+}
+
+h1 {
+  text-align: center;
+  color:rgb(236, 32, 32);
+ 
+}
+.signup-details-container{
+  color: #a4a4a4;
+  width: 550px; 
+  margin: 0 auto; 
+  border: 1px solid #0e0d0d; 
+  padding: 20px;
+  border-radius: 5px; 
+  background-color:#141414;
+  height: 700px;
+  margin-left: 300px;
+  margin-bottom: -600px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+.p11{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.signup-form-container {
+  width: 450px; 
+  margin: 0 auto; 
+  border: 1px solid #181717; 
+  padding: 20px; 
+  border-radius: 5px; 
+  background-color:#111111;
+  height: 1200px;
+  margin-left: 1200px;
+  margin-top: -700px;
+  color: #a4a4a4;
+  font-size: 20px;
+  height: 750px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.submitt{
+  background-color: #007bff;
+  font-size: 25px;
+  font-weight: 600;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: bisque;
+  
+}
+.reset1 {
+    width:150px;
+    margin-left: 1370px;
+    margin-top: -50px;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}

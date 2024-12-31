@@ -1,0 +1,112 @@
+body{
+  background-image: url(bg5.jpg);
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+/* Top navigation bar CSS */
+.topnav {
+  background-color:black;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.logo {
+  margin-left: 5px;
+  width: 90px;
+  height: 140px;
+}
+
+#name {
+  margin-left: 30%;
+  font-size: 125px;
+  margin-right: 30%;
+  color: #a4a4a4;
+}
+
+.userpic {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 1%;
+}
+
+.user {
+  margin-top: 30px;
+  margin-left: 5px;
+  color: #a4a4a4;
+}
+
+/* Second navigation bar CSS */
+
+ul{
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+/* Search bar */
+
+
+
+.search-container {
+  position: absolute;
+}
+
+.search-input {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  position: absolute;
+  margin-left: 1620px;
+}
+
+.searchimg{
+  margin-left: 100px;
+}
+.searchimg img{
+  width: 30px;
+  margin-left: 1770px;
+  margin-top: 8px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.resss{
+  margin-right: 1200px;
+  background-color: rgb(102, 97, 97);
+}
+
+input[type=submit] {
+  width:100px;
+  height:30px;
+  font-weight: 600;
+  font-size: 17px;
+  margin-left: 180px;
+  
+}

@@ -1,0 +1,238 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+/* Top navigation bar CSS */
+.topnav {
+	background-color: black;
+	width: 100%;
+	display: flex;
+	position: relative;
+}
+
+.logo {
+	margin-left: 5px;
+	width: 90px;
+	height: 140px;
+}
+
+#name {
+	margin-left: 30%;
+	font-size: 125px;
+	margin-right: 30%;
+	color: #a4a4a4;
+}
+
+.userpic {
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	margin-top: 1%;
+}
+
+.user {
+	margin-top: 30px;
+	margin-left: 5px;
+	color: #a4a4a4;
+}
+
+/* Second navigation bar CSS */
+
+ul {
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.active {
+	background-color: #04aa6d;
+}
+
+/* Search bar */
+
+input[type='text'] {
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+	border: none;
+	position: absolute;
+	margin-left: 170%;
+}
+
+.search-container {
+	position: absolute;
+}
+
+.searchimg {
+	margin-left: 100px;
+}
+.searchimg img {
+	width: 5%;
+	margin-left: 240%;
+	margin-top: 1%;
+}
+/*..............*/
+/* ===== Google Font Import - Poppins ===== */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+:root {
+	/* ===== Colors ===== */
+	--primary-color: #0e4bf1;
+	--panel-color: #fff;
+	--text-color: #000;
+	--black-light-color: #707070;
+	--border-color: #e6e5e5;
+	--toggle-color: #ddd;
+	--box1-color: #707070;
+	--box2-color: #707070;
+	--box3-color: #707070;
+	--title-icon-color: #fff;
+
+	/* ====== Transition ====== */
+	--tran-05: all 0.5s ease;
+	--tran-03: all 0.3s ease;
+	--tran-03: all 0.2s ease;
+}
+
+body {
+	min-height: 100vh;
+	background-color: white;
+}
+body.dark {
+	--primary-color: #3a3b3c;
+	--panel-color: #242526;
+	--text-color: #ccc;
+	--black-light-color: #ccc;
+	--border-color: #4d4c4c;
+	--toggle-color: #fff;
+	--box1-color: #3a3b3c;
+	--box2-color: #3a3b3c;
+	--box3-color: #3a3b3c;
+	--title-icon-color: #ccc;
+}
+/* === Custom Scroll Bar CSS === */
+
+.a:hover:before {
+	content: '';
+	position: absolute;
+	left: -7px;
+	height: 5px;
+	width: 5px;
+	border-radius: 50%;
+	background-color: red;
+}
+
+.dash-content .boxes {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.dash-content .boxes .box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 12px;
+	width: calc(100% / 3 - 15px);
+	padding: 15px 20px;
+	background-color: var(--box1-color);
+	transition: var(--tran-05);
+}
+.boxes .box i {
+	font-size: 35px;
+	color: var(--text-color);
+}
+
+.boxes .box.box2 {
+	background-color: var(--box2-color);
+}
+.boxes .box.box3 {
+	background-color: var(--box3-color);
+}
+.dash-content .activity .activity-data {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.activity .activity-data {
+	display: flex;
+}
+.activity-data .data {
+	display: flex;
+	flex-direction: column;
+	margin: 0 15px;
+}
+.activity-data .data-title {
+	font-size: 20px;
+	font-weight: 500;
+	color: white;
+}
+.activity-data .data .data-list {
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 20px;
+	white-space: nowrap;
+	color: white;
+}
+
+@media (max-width: 1000px) {
+	nav.close ~ .dashboard .top {
+		left: 250px;
+		width: calc(100% - 250px);
+	}
+	.activity .activity-data {
+		overflow-x: scroll;
+	}
+}
+
+@media (max-width: 780px) {
+	.dash-content .boxes .box {
+		width: calc(100% / 2 - 15px);
+		margin-top: 15px;
+	}
+}
+@media (max-width: 560px) {
+	.dash-content .boxes .box {
+		width: 100%;
+	}
+}
+.text {
+	font-size: x-large;
+	padding: 2px;
+	background-color: #242526;
+	color: #ddd;
+}
+.im {
+	width: 8%;
+	border-radius: 45%;
+	align-items: right;
+}
+
+body {
+	background-image: url(ly.jpeg);
+}
